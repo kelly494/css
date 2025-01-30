@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CSS units & Measurements</title>
+  </head>
+  <body>
+    <h1>CSS Units & Measurements</h1>
+    <p>
+      CSS provides various units to define dimensions, spacing, and typography.
+      These units are categorized into absolute and relative types.
+    </p>
+    <h2>1. Absolute Units</h2>
+    <p>
+      Absolute units define fixed sizes that do not change relative to the
+      viewport or parentelements
+    </p>
+    <ul>
+      <li>px-pixels</li>
+      <li>cm-centimetre</li>
+      <li>mm-Millimetre</li>
+      <li>in- inches</li>
+    </ul>
+    <h2>2. Relative units--- Responsive design</h2>
+    <div>
+      <p>
+        Relative units depend on parent elements, viewport size,or root element,
+        making them ideal fo responsive design
+      </p>
+      <p>
+        em and rem are font related units. em units is relative to the parent
+        element font size and rem is relative to root element(html)font size
+      </p>
+      <p>
+        Percentage(%) units are relative to a parent element(width or height)
+      </p>
+      <p>
+        vw(viewport width) and vh(viewportheight) units are relative to the
+        viewport/available screensize
+      </p>
+    </div>
+    <div id="test">
+      <p>Hello!</p>
+    </div>
+    <style>
+      h2 {
+        border: 2px solid green;
+        width: 80%;
+      }
+      div {
+        display: flex;
+        ...../*Css layout model-flex-box*/;
+      }
+      p {
+        border: 2px solid orange;
+        margin: 4px;
+      }
+      h1 {
+        border: 3px solid blue;
+        height: 100vh;
+        width: 100vh;
+      }
+      /*em and rem-- relative to font size*/
+      p {
+        padding: 1em;
+        width: 10em;
+      }
+    </style>
+  </body>
+</html>
+<!-- by default the font-size of words is 16px-->

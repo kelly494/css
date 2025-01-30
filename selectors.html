@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+
+    <title>CSS selectors</title>
+  </head>
+  <body>
+    <h1>CSS Selectors</h1>
+    <p>
+      CSS selectors are patterns used to select and style elements in a html
+      document
+    </p>
+    <ul>
+      <li>
+        <h2>Universal selector *</h2>
+        <p>Selects all elements in the page</p>
+      </li>
+      <li>
+        <h2>Elements Selector / Type Selector</h2>
+        <p>Selects all elements of a given type e.g. p,img,h2,.....</p>
+      </li>
+      <li>
+        <h2>Class Selector</h2>
+        <p>Selects a single element with a specific class</p>
+      </li>
+      <li>
+        ID Selector
+        <p>Selects a single element with a specific ID</p>
+      </li>
+      <li>
+        <h2>Grouping and combining selectors</h2>
+        <ul id="special">
+        <ul>
+          <li>
+            <h3>Groups Selector</h3>
+            <p>Applies the same style to multiple selectors</p>
+          </li>
+          <li>
+            <h3>Descendant selector (space)</h3>
+            <p> Selects only direct children of an element</p>
+          </li>
+          <li>
+            <h3>Child selector (>)</h3>
+            <p>Selects only direct children of an element</p>
+          </li>
+          <li>Adjacent sibling selector (+)
+          <p>Selects the first adjacent sibling element.</p>
+          </li>
+          <li>
+            <h3>General Sibling Selector (~)</h3>
+            <p>Selects all sibling after the specified element</p>
+          </li>
+        </ul>
+        <li>
+          <li> <h2>Attribute Selector</h2></li>
+          <li> <h2>Pseudo-classes</h2></li>
+          <li> <h2>Pseudo-elements</h2></li>
+        </li>
+        </ul>
+      
+        <style>
+          *{
+            border: 2px solid red;
+            margin: 2px;
+            
+          }
+        .desc{
+          text-decoration: underline;
+        }
+        #hght{
+          color: green;
+        }
+        h1
+        h2
+        h3{
+          color: yellow;
+        }
+        #special p{
+          background-color: blue;
+        }
+        
+        </style>
+      
+    
+  </body>
+</html>
